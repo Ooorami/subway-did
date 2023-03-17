@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
 }
 
 .App-link {
@@ -35,4 +35,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.state1 {
+  width: 760px;
+  height: 90px;
+  display: flex;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fbd340;
+  color: #020202;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.order1 {
+  width: 760px;
+  height: 600px;
+  display: flex;
+  position: static;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order1Txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #020202;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.state2 {
+  width: 760px;
+  height: 90px;
+  display: flex;
+  position: relative;
+  left: 760px;
+  bottom: 690px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b8900;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.order2 {
+  width: 760px;
+  height: 600px;
+  display: flex;
+  position: relative;
+  left: 760px;
+  bottom: 690px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order2Txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: #020202;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.list {
+  list-style-type: none;
+  width: 500px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  background-color: #cfcfcf;
+  border-radius: 7px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
